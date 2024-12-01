@@ -1,0 +1,80 @@
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+margin: 0 auto;
+padding: 0;
+
+    }
+    header {
+        background-color:white;
+        height:auto; 
+        display: flex;   
+        justify-content:space-between;  
+        align-items: center; 
+        width:auto;
+        margin: 1rem;
+        padding: 1rem;
+        border: 1px solid black;
+
+        
+    }
+        .logo { 
+            display: flex;
+            font-weight: bold;
+            background-color:white;
+            
+            justify-content: center;
+            margin: 1rem;
+             }
+           header nav a{
+         
+            text-decoration-line: none;
+            row-gap: 2rem;
+            color: black;
+            margin-right: 20px;
+           }
+           .fa-regular{
+            margin-right:20px;
+            margin-left: 20px;
+           }
+           .fa-solid{
+            margin-right:50px;
+           }
+           main {
+            border: 1px solid black;
+            margin: 1rem;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .movie-info{
+            display:flex;
+            justify-content:flex-start;
+        }
+        .maturity-rating{
+            margin-right:20px;
+            margin-left: 20px;
+            border: 1px solid black;
+            border-radius: 3px;
+        }
+        .fa-star{
+            color: red;
+        }
+        .movie-details span {
+            color: red;
+        }
+        
+        .fa-solid{
+            color:white;
+        }
+        button{
+           
+            color: white;
+            background-color: red;
+            height:2.5rem;
+            border: 1px solid black;
+            border-radius: 12px;
+          
+            
+        }
+       
