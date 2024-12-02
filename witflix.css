@@ -3,6 +3,11 @@ body{
 font-family: Arial, Helvetica, sans-serif;
 margin: 0 auto;
 padding: 0;
+width: 1280px;
+height:720px;
+
+overflow: scroll;
+
 
     }
     header {
@@ -73,8 +78,115 @@ padding: 0;
             background-color: red;
             height:2.5rem;
             border: 1px solid black;
-            border-radius: 12px;
-          
+            border-radius: 12px;   
+        }
+        section{
+             border: 1px solid black;
+            margin: 1rem;
+            padding: 1rem;
             
         }
+        .suggestion-rows1{
+            display: flex;
+            margin: 0;
+            padding: 0;
+            justify-content: space-between;
+           
+
+        }
+        .suggestion-rows2{
+            
+            display: flex;
+            margin:0;
+            padding:0;
+            justify-content: space-between;
+        }
+
+        .suggestion-rows3{
+            display: flex;
+            margin: 0;
+            padding: 0;
+            justify-content: space-between;
+        }
+        .suggestion-row{
+            display: flex;
+            flex-direction: column;
+           
+        }
+       .ust-yazi{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+       }
+       .suggestion-row{
+        border: 1px solid black;
+        padding: 2rem;
+        width: 20rem;
+        height:7rem;
+
+       }
+       .time-mature{
+        margin-bottom: 0.5rem;
+       }
+       footer{
+        display: flex;
+       }
+      footer nav a {
+        text-decoration-line: none;
+        row-gap: 2rem;
+        color: black;
+        margin-right: 20px;
+    }
+    .foot-copyright{
+        margin-left: 1.5rem;
+        margin-right:3rem ;
+    }
+    .fa-facebook-square{
        
+        width: 50px;
+        height: 50px;
+
+    }
+    .fa-youtube-play{
+        margin-right: 1rem;
+        margin-left: 1rem;
+        width: 50px;
+        height: 50px;
+    }
+    .fa-twitter-square{
+        width: 50px;
+        height: 50px;
+
+    }
+    
+    .icon-app{
+        width: 200px;
+        height: 50px;
+        margin-left: 3rem;
+    }
+    .icon-google-play-store{
+        width: 200px;
+        height: 50px;
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+      .Follow{
+        display: flex;
+            margin: 0;
+            padding: 0;
+            justify-content: space-between;
+            margin-right:1rem 
+      }
+      .Apps{
+        display: flex;
+            margin: 0;
+            padding: 0;
+            justify-content: space-between;
+            
+             }
+             p .ap {
+                margin-left: 50rem;               
+             }
+             @media (max-width=420px){
+                
+             }
